@@ -22,7 +22,7 @@ function identity(arg) {
     return arg;
 }
 var myIdentity = identity;
-myIdentity('string'); // error
+//myIdentity('string')// error
 myIdentity(123); //correct
 var GenericNumber = /** @class */ (function () {
     function GenericNumber() {
@@ -113,6 +113,6 @@ function prop(obj, key) {
     return obj[key];
 }
 var man = {
-    name: "Semlinker",
+    name: "jjchen",
     age: 30
 };

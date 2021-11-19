@@ -134,7 +134,7 @@ type Person = {
 }
 
 let man: Person = {
-  name: "Semlinker",
+  name: "jjchen",
   age: 30
 }
 
